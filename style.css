@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://cdn.leonardo.ai/users/7f273ffd-68cb-40f4-9532-57c528cf14ff/generations/ea862f0e-9f5a-4ec7-9074-2afbeb00f6c3/Leonardo_Phoenix_10_A_luxurious_highend_image_featuring_a_slee_3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+.hero {
+    position: relative;
+    background: url(".jpg") no-repeat center center;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.features,
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.22);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+}
