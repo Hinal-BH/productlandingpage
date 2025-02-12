@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOWmax-SERUM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="nav container">
+        <h3>GLOWmax-SERUM</h3>
+        <button onclick="openModal()">
+            <a href="LogIn.html"></a>LogIn</button>
+    </nav>
+
+    <section class="hero">
+        <div class="overlay">
+            <h2>Welcome to GLOWmax-SERUM</h2>
+            <p>"Your Beauty Journey Starts Here – Explore Our Premium Makeup and Skincare"</p>
+        </div>
+
+    </section>
+
+    <section class="features fade-in">
+        <h2>Why Choose GLOWmax-SERUM</h2>
+        <p>Our products are crafted with premium, skin-friendly ingredients that deliver long-lasting, visible results. Whether you're enhancing your natural beauty or treating your skin to the best, we offer a wide range tailored to your unique needs. Cruelty-free,
+            vegan, and dermatologically tested, our products are perfect for all skin types, ensuring a guilt-free and radiant beauty experience</p>
+    </section>
+
+    <section class="testimonials fade-in">
+        <h2>What Our Users Say</h2>
+        <div class="card-container">
+            <div class="card content">
+            </div>
+        </div>
+        <p>"Our customers rave about the difference our products make! From glowing skin to flawless makeup, they love the long-lasting results and gentle formulations. Join the thousands of happy customers who trust us for their beauty needs!"</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 GLOWmax-SERUM. All rights reserved.</p>
+    </footer>
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2>LogIn</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required><br>
+                <input type="email" placeholder="Your Email" required><br>
+                <button type="submit">Submit</button>
+                <button type="button" onclick="closeModal()">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
